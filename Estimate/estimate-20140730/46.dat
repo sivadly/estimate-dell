@@ -1,0 +1,5 @@
+'Multiple_of_100','mod( @column, 100 ) = 0',81,3,'''The department number must be a multiple of 100.'''
+'Positive_number','@column > 0',81,4,'''Sorry! The salary must be greater than zero.'''
+'Y_or_N','match(@column, "^[YNyn]$")',80,1,
+'must_be_number','isNumber( @column )',80,0,
+'valid_status','match(@status, "^[ALTD]$")',80,0,
